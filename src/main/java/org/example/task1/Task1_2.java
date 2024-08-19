@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task1;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
@@ -15,27 +15,20 @@ import java.io.StringWriter;
 public class Task1_2 {
     public static void main(String[] args) {
         try {
-            // Путь к XSLT-файлу
-            File xsltFile = new File("src/main/resources/task12/transform.xslt");
+            File xsltFile = new File("src/main/resources/task1/task12/transform.xslt");
 
-            // Путь к исходному XML-файлу
-            File xmlFile = new File("src/main/resources/task12/input.xml");
+            File xmlFile = new File("src/main/resources/task1/task12/input.xml");
 
-            // Создание трансформатора
             TransformerFactory factory = TransformerFactory.newInstance();
             Transformer transformer = factory.newTransformer(new StreamSource(xsltFile));
 
-            // Источник XML
             StreamSource xmlSource = new StreamSource(xmlFile);
 
-            // Выходной результат (можно записать в файл или строку)
             StringWriter writer = new StringWriter();
             StreamResult result = new StreamResult(writer);
 
-            // Выполнение трансформации
             transformer.transform(xmlSource, result);
 
-            // Вывод результата трансформации
             System.out.println("Result XML: \n" + writer);
 
         } catch (TransformerException e) {

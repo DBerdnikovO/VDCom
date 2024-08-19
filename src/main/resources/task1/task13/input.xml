@@ -2,9 +2,9 @@
     <ApplicationData>
         <Loaners>
             <ApplicantDetails>
-                <ApplicantName>Jane Smith</ApplicantName>
-                <ApplicantAddress>456 Elm St, Springfield</ApplicantAddress>
-                <ApplicantPhone>+0987654321</ApplicantPhone>
+                <ApplicantName>Danila Berdnikov</ApplicantName>
+                <ApplicantAddress>Samara Volga</ApplicantAddress>
+                <ApplicantPhone>+8888888</ApplicantPhone>
             </ApplicantDetails>
         </Loaners>
     </ApplicationData>
