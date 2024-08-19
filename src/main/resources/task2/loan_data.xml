@@ -1,0 +1,27 @@
+<RootElement>
+    <SystemData>
+        <LoanProducts>
+            <LoanProduct id="product-1">
+                <MinAmount>5000</MinAmount>
+                <MaxAmount>50000</MaxAmount>
+                <MinTerm>12</MinTerm>
+                <MaxTerm>60</MaxTerm>
+            </LoanProduct>
+        </LoanProducts>
+    </SystemData>
+
+    <ApplicationData>
+        <LoanApplication>
+            <ProductId>product-1</ProductId>
+            <Amount>30000</Amount>
+            <Term>36</Term>
+        </LoanApplication>
+        <Loaners>
+            <ApplicantDetails>
+                <ApplicantName>Jane Smith</ApplicantName>
+                <BirthDate>1960-05-15</BirthDate>
+                <INN>123456789012</INN>
+            </ApplicantDetails>
+        </Loaners>
+    </ApplicationData>
+</RootElement>

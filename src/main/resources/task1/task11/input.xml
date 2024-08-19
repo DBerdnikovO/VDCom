@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootElement>
+    <SystemData>
+        <Product id="product-id-1">
+            <Params/>
+        </Product>
+    </SystemData>
+
+    <ApplicationData>
+        <RequestedAmount>1000</RequestedAmount>
+    </ApplicationData>
+</RootElement>

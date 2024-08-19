@@ -1,0 +1,11 @@
+<RootElement>
+    <ApplicationData>
+        <Loaners>
+            <ApplicantDetails>
+                <ApplicantName>Jane Smith</ApplicantName>
+                <ApplicantAddress>456 Elm St, Springfield</ApplicantAddress>
+                <ApplicantPhone>+0987654321</ApplicantPhone>
+            </ApplicantDetails>
+        </Loaners>
+    </ApplicationData>
+</RootElement>
